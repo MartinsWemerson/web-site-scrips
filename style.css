@@ -12,10 +12,12 @@ body{
 main{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
-section{
+#principial{
     gap: 3%;
-    width: 58%;
+    width: 60%;
     display: flex;
     margin-top: 4%;
     padding-top: 1.5%;
@@ -24,6 +26,7 @@ section{
     border-radius: 2.5%;
     justify-content: center;
     background-color: hsl(0, 0%, 100%);
+    display: none;
 }
 article{
   display: flex;
@@ -42,7 +45,7 @@ h1{
     color: hsl(234, 29%, 20%);
 }
 p{
-    font-size: 90%;
+    font-size: 100%;
     color: hsl(234, 29%, 20%);
 }
 ul {
@@ -55,7 +58,7 @@ li{
     padding-left: 2%;
     font-size: 90%;
 }
-h3{
+#tex{
     font-size: small;
 }
 button{
@@ -67,10 +70,42 @@ button{
     color: white;
     
 }
-#email{
-    width: 95%;
+#gmail{
+    width: 93%;
     height: 45px;
     border-radius: 6px;
     border: 1px solid;
     margin-bottom: 20px;
+}
+#secundario{
+    height: 450px;
+    width: 450px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius:  5%; ;
+    background-color:hsl(0, 0%, 100%) ;
+    font-size: 90%;
+    color: hsl(234, 29%, 20%);
+    margin-top: 160px;
+    
+}
+#chek{
+    margin-top: 20px;
+    padding-left: 30px;
+}
+h2{
+    font-size:40px;
+}
+#texto2{
+    padding-left: 34px;
+    
+    display: flex;
+    flex-direction: column;
+
+}
+#botao2{
+    margin-top: 20px;
+}
+#paragrafo{
+    font-size: large;
 }
