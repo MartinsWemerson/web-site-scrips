@@ -1,47 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="sccripts.js"></script>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/style.css">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-
 <body>
     <main>
-        <section id="principial">
-            <article>
+        <section>
             <div>
-                <h1> Stay updated!</h1>
-                <p>Join 60.000+ productor mansagers receiving monthly <br> updates on: </p>
+                <h1>Stay updated!</h1>
+            <p>Join 60.00+ product manegers receiving monthly <br> updadtes on:</p>
             </div>
+            
 
-            <div>
-                <ul  id=lista>
-                    <li>Product discovery and building what matters</li>
-                    <li>Measuring to ensure updates are a success</li>
-                    <li>And much more!</li>
-                </ul>
-            </div>
-            <div>
-                <label id="tex" for="gmail">Email</label>
-                <input type="text" id="gmail" name="gmail" value="exemplo@gmail.com" >
-                
-                <button> Subscribe to monthly newsletter</button>
-            </div>
-        </article>
+            <ul>
+                <li>Porduct discovery and building what matters</li>
+                <li>Measuring to ensure updates are a success</li>
+                <li>And much more!</li>
+            </ul>
+
+            <form>
+                 <h3>Email address</h3>
+                 <input type="email" id='gmail' placeholder="email@gmail.com">
+                 <input type="submit" id="botão" value="Subscribe to monthly newsletter" onclick="enviar()">
+            </form>
+        </section>
+
         <img src="/imgs/illustration-sign-up-desktop.svg" alt="">
-        </section>
-        <section  id="secundario">
-            <img id="chek" src="/imgs/icon-success.svg" alt="">
-            <div id="texto2">
-               <h2>Thanks for <br>subscribing!</h2>
-               <p id="paragrafo">A confirmation email has been sent to <br> <b>exemplo@gamil.com</b> Please open it and click <br> the button inside to confirm your subscription.</p>
-               <button id="botao2"> Dismiss menssage</button>
-             </div>
-        </section>
-    </main>
-</body>
 
+       
+    </main>
+    
+
+</body>
 </html>
